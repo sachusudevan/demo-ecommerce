@@ -17,7 +17,7 @@ body {
 .my_footer {
     background-color: #f8f9fa;
     height: 60px;
-    bottom: 2px;
+    bottom: 0px;
     margin-top: 40px;
     text-align: center;
     vertical-align: middle;
