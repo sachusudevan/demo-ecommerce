@@ -46,10 +46,10 @@
                     <tbody class="">
                         {% for cart_item in cart_items %}
                             <tr>
-                                <td>
+                                <td width="100px">
                                     <img src="{{ cart_item.product.image.url }}" width="100px" class="float-left rounded custom_image" >
                                 </td>
-                                <td class="text-left">
+                                <td class="text-left" width="260px">
                                     {{cart_item.product.name}}<br>
                                     SKU:{{cart_item.product.id}}
                                     <br>
